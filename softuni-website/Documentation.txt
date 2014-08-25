@@ -1,0 +1,39 @@
+Software University - Teamwork Project
+
+
+Team: Draigoch
+Project name: SoftUni Future Website
+Description: The SoftUni website after 30 years.
+
+
+Members:
+ - Boris Aleksiev
+ - Philip Getzkov
+ - Valyu Valev
+ - Galin Gyulchev
+
+
+Members contributions:
+
+ - Boris Aleksiev
+   - Responsive design
+   - Forum single page
+   - JavaScript Console, and other JS functionality
+
+ - Philip Getzkov
+   - News page
+
+ - Valyu Valev
+   - Forum page
+
+ - Galin Gyulchev
+   - Header
+   - Footer
+
+
+Useed technologies:
+
+ - Programming languages: HTML5, CSS3, JavaScript, PHP
+ - IDEs: NetBeans, Notepad++, Visual Studio
+ - Source Control System: Github
+ - Comunications: Live meetings, skype and facebook

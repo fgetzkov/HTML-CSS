@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1200px) {
+    .post, .col-forum {float: none; margin: 0 auto; width: 80%;}
+    .col-forum {margin: 0 auto 20px;}
+    .side_col {float: none; display: none;}
+}
+
+@media only screen and (min-width: 1200px) {
+    .post, .col-forum {float: right; margin: 0; width: 70%;}
+    .col-forum {margin-bottom: 20px;}
+    .side_col {float: left; display: block;}
+}
+
+@media only screen and (max-width: 1100px) {
+    header .top-nav, header nav {display: none;}
+    header .responsive-button {display: block;}
+}
+
+@media only screen and (min-width: 1100px) {
+    header .top-nav, header nav {display: block;}
+    header .responsive-button {display: none;}
+    section.responsive-nav {width: 0 !important;}
+    header, main, footer {left: 0 !important;}
+}
+
+@media only screen and (min-width: 590px) {
+    .container {width: 46%;}
+}
+
+@media only screen and (min-width: 910px) {
+    .container {width: 28%;}
+}
+
+@media only screen and (max-width: 910px) {
+    .container {width: 46%;}
+}
+
+@media only screen and (max-width: 590px) {
+    .container {width: 90%;}
+}
