@@ -1,0 +1,33 @@
+/* Add here your responsive CSS */
+@media (max-width:780px) {
+   
+	li {
+        display: block;
+        width: 100%;
+        margin-left: -40px;
+    }
+     a {
+        width: 100%;
+        padding: 5px 20px 5px 20px !important;
+    }
+    .mainHeader nav {
+        height: 160px;
+        width: 100%;
+    }
+    .mainHeader img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+     
+    .top-sidebar,.middle-sidebar,.bottom-sidebar {
+        margin: 15px 0px 0px 0px;
+    }
+    p {
+        width: 90%;
+    }
+    .content,.top-sidebar,.middle-sidebar,.bottom-sidebar,.article {
+        width: 100%;
+    }
+}
+

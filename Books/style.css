@@ -1,0 +1,59 @@
+body{
+	font-family: Tahoma;
+	font-size: 11px;
+	text-transform: uppercase;
+
+	
+}
+
+img{
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+.book{
+	display: inline-block;
+	width: 145px;
+	height: 250px;
+	vertical-align: top;
+	position: relative;
+
+}
+
+.info{
+	cursor: pointer;
+}
+.info:hover{
+	color: silver;
+
+
+
+}
+.author{
+	
+	color: silver;
+	text-transform: none !important;
+}
+.price{
+
+	color: red;
+	font-weight: bold;
+}
+button{
+	cursor: pointer;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-color: #e6e7e9;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-family: Tahoma;
+	font-size: 10px;
+	border: none;
+	background: url(img/shopping-cart-inactive.png) no-repeat left;
+	padding-left: 15px;
+}
+button:hover{
+	background: url(img/shopping-cart-active.png) no-repeat left;
+}

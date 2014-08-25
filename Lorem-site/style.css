@@ -1,0 +1,138 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma, Sans-serif;
+}
+
+.wrapper {
+    width: 840px;
+    margin: 0 auto;
+}
+.head-foot-wrapper {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+header, footer {
+    float: left;
+    padding: 30px 0px 30px 0px;
+    width: 100%;
+}
+
+footer {
+    font-size: 12px;
+    color: #666;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 60px;
+    background: transparent;
+}
+
+nav a.active, nav a.active:hover {
+    color: #ee910a;
+}
+
+nav a:hover {
+    background: #c2c9c9;
+    color: #333;
+}
+
+#header, #footer {
+    width: 100%;
+    float: left;
+    background: #ddd;
+}
+
+main {
+    float: left;
+    height: auto;
+    width: 840px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-weight: normal;
+    padding: 0px;
+    margin: 40px 0px;
+}
+
+main p {
+    height: auto;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    line-height: 25px;
+}
+
+.content {
+    height: auto;
+    width: 400px;
+}
+
+.left {
+    float: left;
+}
+
+.right, .social {
+    float: right;
+}
+
+.social {
+    margin-left: 15px;
+}
+
+.icon {
+    float: right;
+    background: url(img/icons.png);
+    height: 30px;
+    width: 30px;
+}
+
+.icon-t {
+    background-position: 0px 30px;
+}
+
+a.social:hover .icon-t {
+    background-position: 30px 30px;
+}
+
+.icon-twitter {
+    background-position: 0px 70px;
+}
+
+a.social:hover .icon-twitter {
+    background-position: 30px 70px;
+}
+
+.icon-google {
+    background-position: 0px 110px;
+}
+
+a.social:hover .icon-google {
+    background-position: 30px 110px;
+}
+
+.icon-facebook {
+    background-position: 0px 150px;
+}
+
+a.social:hover .icon-facebook {
+    background-position: 30px 150px;
+}
