@@ -1,0 +1,52 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.leftSide{
+   margin-top: 45px;
+   margin-left: 45px;
+   width: 50%;
+	
+}
+.rightSide { 
+	margin-top: 35px;
+	margin-right: 45px;
+	float: right;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline;
+}
+.leftSide,.rightSide {
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.copyright{
+	padding-top: 15px;
+	color: #9B9BB4;
+}
+img{
+	width: 70px;
+}
+.menu{
+	  color:#333333;
+}
+.aboutCleaver,.Contact,.Main{
+	padding-left: 20px;
+}
+#icon{
+	width: 15px;
+}
+.about:hover,.aboutCleaver:hover,.Contact:hover,.Main:hover{
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+.facebook:hover,.twitter:hover,.google:hover{
+	opacity: .5;
+}

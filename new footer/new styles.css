@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.footer-nav{
+	font-family: 'Gotham_SSm_4r',Helvetica,Arial,sans-serif;
+	text-align: center;
+}
+li{
+	display: inline;
+
+}
+a{
+	text-decoration: none;
+	
+}
+.topMenu{
+	font-size: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: skyblue;
+}
+.secondMenu{
+	
+	color: silver;
+	padding-right: 10px;
+	font-size: 12px
+}
+.topMenu:hover,.secondMenu:hover{
+	text-decoration: underline;
+}
+.copyright{
+	color: silver;
+	font-size: 15px;
+}
+.row{
+	padding-top: 10px;
+}
+
+footer{
+	padding-top: 40px;
+}
